@@ -1,0 +1,42 @@
+.button{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.btnWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    display:flex;
+    border-style: solid;
+    border-color: red;
+    
+}
+.scoreboard{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: flex-start;
+    width: 10em;
+    height: 5em;
+    margin: 10px auto;
+    border-color: green;
+    border-style: solid;
+}
+.compPlay{
+    border-style: solid;
+    border-color: blue;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.wins,.losses{
+    text-align: center;
+}
+.winCount, .lossCount{
+    text-align:center;
+    font-size: 2em;
+}
